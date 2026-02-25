@@ -4,7 +4,19 @@ A living reference for writing C# scripts for the Space Engineers Programmable B
 
 ## Contents
 
-- `docs/scripting-reference.md` - Comprehensive scripting guide and API reference
+- [`docs/scripting-reference.md`](docs/scripting-reference.md) - Main index and navigation hub
+  - [`docs/getting-started.md`](docs/getting-started.md) - Prerequisites, script anatomy, MDK setup
+  - [`docs/grid-terminal-system.md`](docs/grid-terminal-system.md) - Finding and filtering blocks
+  - [`docs/block-interfaces.md`](docs/block-interfaces.md) - Full API reference for every block type
+  - [`docs/runtime-and-continuous-scripts.md`](docs/runtime-and-continuous-scripts.md) - Update frequencies and state machines
+  - [`docs/lcd-and-text-surfaces.md`](docs/lcd-and-text-surfaces.md) - Writing to screens and displays
+  - [`docs/storage-and-persistence.md`](docs/storage-and-persistence.md) - Saving state across sessions
+  - [`docs/intergrid-communication.md`](docs/intergrid-communication.md) - IGC messaging between grids
+  - [`docs/utility-classes.md`](docs/utility-classes.md) - MyCommandLine, MyIni, VRageMath
+  - [`docs/sandbox-limitations.md`](docs/sandbox-limitations.md) - Whitelisted namespaces and hard limits
+  - [`docs/performance-best-practices.md`](docs/performance-best-practices.md) - Caching, update rates, optimisation
+  - [`docs/common-patterns.md`](docs/common-patterns.md) - Reusable code patterns
+  - [`docs/worked-examples.md`](docs/worked-examples.md) - Complete scripts with walkthroughs
 - `scripts/` - Our custom scripts (to be added as we build things)
 
 ## Quick Start
